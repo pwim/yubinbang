@@ -1,0 +1,3 @@
+module Yubinbang
+  # Your code goes here...
+end
