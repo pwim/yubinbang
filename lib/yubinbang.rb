@@ -1,3 +1,3 @@
 module Yubinbang
-  # Your code goes here...
+  autoload :RawData, "yubinbang/raw_data"  
 end
