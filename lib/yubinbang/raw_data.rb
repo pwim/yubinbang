@@ -7,5 +7,9 @@ module Yubinbang
         File.open(path, "w") {|o| o.write(f.read)}
       end
     end
+
+    def self.decode(source, target)
+      s = `cd #{target}; lha x #{source}`
+    end
   end
 end
